@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Head</Head></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                width: 110%;
+                margin-top: -5px;
+                margin-left: -5px;
+                background-color: rgb(225, 95, 78);
+            }
+            .rectangle-1 {
+                background-color: rgb(160, 77, 66);
+                width: 100%;
+                height: 150px;
+            }
+            button[type=btn1] {
+                width: 220px;
+                height: 150px;
+                margin-left: 25%;
+                color: whitesmoke;
+                font-size: 52px;
+                background-color: rgb(160, 77, 66);
+                box-shadow: none;
+                border: none;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                cursor: pointer;
+            }
+            button[type=btn2] {
+                width: 220px;
+                height: 150px;
+                margin-left: 15%;
+                color: whitesmoke;
+                font-size: 52px;
+                background-color: rgb(160, 77, 66);
+                box-shadow: none;
+                border: none;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: rgb(128, 63, 55);
+            }
+            .inf {
+                background-color: rgb(128, 63, 55);
+                width: 1200px;
+                height: 1000px;
+                margin-left: 10%;
+                justify-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rectangle">
+            <div class="rectangle-1">
+                <button type="btn1" onclick="document.location='News.html'">Новости</button>
+                <button type="btn2" onclick="document.location='Game.html'">Играть</button>
+            </div>
+        </div>
+        <div class="txt">
+        </div>
+        <div class="image">
+        </div>
+        <div class="information">
+            <div class="inf">
+                <h1>Описание и суть игры</h1>
+                <h2>Здесь будет описание игры</h2>
+                <img src="Image/Durn.jpg" width="500px">
+            </div>
+        </div>
+    </body>
+</html>
