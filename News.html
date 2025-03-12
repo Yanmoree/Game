@@ -1,53 +1,125 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>News</title>
+        <title>Head</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             body {
-                width: 110%;
-                margin-top: -5px;
-                margin-left: -5px;
-                background-color: rgb(225, 95, 78);
+                margin: 0;
+                padding: 0;
+                background-image: url(Image/island.png);
+                background-size: 100%;
+                background-attachment: local;
+
             }
             .rectangle-1 {
-                background-color: rgb(160, 77, 66);
+                background-color: rgba(40, 42, 47, 0.8);
                 width: 100%;
-                height: 150px;
+                height: 22vh;
             }
             button[type=btn1] {
-                width: 220px;
-                height: 150px;
-                margin-left: 25%;
+                width: 40vw;
+                height: 15vh;
                 color: whitesmoke;
-                font-size: 52px;
-                background-color: rgb(160, 77, 66);
-                box-shadow: none;
+                font-size: 4vw;
+                background: none;
                 border: none;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 cursor: pointer;
+                margin: 2vw;
+                position: absolute;
+                top: 0;
+                left: 4vw;
             }
             button[type=btn2] {
-                width: 220px;
-                height: 150px;
-                margin-left: 15%;
+                width: 40vw;
+                height: 15vh;
                 color: whitesmoke;
-                font-size: 52px;
-                background-color: rgb(160, 77, 66);
-                box-shadow: none;
+                font-size: 4vw;
+                background: none;
                 border: none;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 cursor: pointer;
+                margin: 2vw;
+                position: absolute;
+                top: 0;
+                right: 4vw;
             }
             button:hover {
-                background-color: rgb(128, 63, 55);
+                background-color: rgba(0, 0, 0, 0.5);
             }
-            .text-news {
-                background-color: rgb(141, 72, 63);
-                height: 500px;
-                width: 1200px;
-                justify-items: center;
-                margin-left: 10%;
+            .inf {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 80vw;
+                margin: 5vh auto;
+                padding: 2vw;
+                border-radius: 20px;
+                text-align: center;
+                font-size: 1vw;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            h1 {
+                color: whitesmoke;
+            }
+            h2 {
+                color: whitesmoke;
+            }
+            .lefttxt {
+                text-align: left;
+                margin-left: 3vw;
+            }
+            .justifytxt {
+                text-align: justify;
+                text-indent: 3vw;
+            }
+            .information1 {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5vh;
+            }
+            .NPC {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .World {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Monsters {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Weapones {
+                background-color:rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Contacts {
+                margin-top: 10vh;
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 100%;
+                height: 100%;
+                padding: 1vw 0 1vw 0;
+                text-align: center;
+                font-size: 1vw;
             }
         </style>
     </head>
@@ -62,10 +134,25 @@
         </div>
         <div class="image">
         </div>
-        <div class="News">
-            <div class="text-news">
-                <h1>Новости!</h1>
+        <div class="information">
+            <div class="inf">
+                <h1> ОБНОВЛЕНИЕ </h1>
+                <h2 class="justifytxt">
+                    Сегодня мы хотим представить новые возможности, которые появятся в игре Ixoratus: Архипелаг Теней.
+                    В новом обновлении вы сможете встретить новых NPC, которые помогут вам в вашем путешествии.
+                    Также вы сможете исследовать новые миры, в которых вас ждут новые монстры и локации.
+                    В игре появится новое оружие, которое вы сможете купить у NPC или создать сами.
+                    Также вы сможете купить или создать себе доспехи, которые помогут вам в сражении с монстрами.
+                    Новое обновление выйдет в ближайшее время. Следите за новостями.
+                </h2>
             </div>
+        </div>
+        <div class="Contacts">
+            <h1>Контакты</h1>
+            <h2>
+                <img src="Image/tg.png" alt="Telegram" width="50px" height="50px">
+                <img src="Image/vk.png" alt="VK" width="50px" height="50px">
+            </h2>
         </div>
     </body>
 </html>

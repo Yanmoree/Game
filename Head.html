@@ -7,12 +7,13 @@
             body {
                 margin: 0;
                 padding: 0;
-                background-image: url(Image/Земля.png);
-                background-size: cover;
-                background-attachment: fixed;
+                background-image: url(Image/island.png);
+                background-size: 100%;
+                background-attachment: scroll;
+
             }
             .rectangle-1 {
-                background-image: url(Image/Дерн.png);
+                background-color: rgba(40, 42, 47, 0.8);
                 width: 100%;
                 height: 22vh;
             }
@@ -48,32 +49,77 @@
                 background-color: rgba(0, 0, 0, 0.5);
             }
             .inf {
-                background-color: rgba(0, 0, 0, 0.3);
+                background-color: rgba(40, 42, 47, 0.8);
                 width: 80vw;
                 margin: 5vh auto;
                 padding: 2vw;
                 border-radius: 20px;
                 text-align: center;
+                font-size: 1vw;
             }
             img {
                 max-width: 100%;
                 height: auto;
-            }
-            @media (max-width: 768px) {
-                button[type=btn1], button[type=btn2] {
-                    width: 80vw;
-                    height: 10vh;
-                    font-size: 6vw;
-                }
-                .inf {
-                    width: 90vw;
-                }
             }
             h1 {
                 color: whitesmoke;
             }
             h2 {
                 color: whitesmoke;
+            }
+            .lefttxt {
+                text-align: left;
+                margin-left: 3vw;
+            }
+            .justifytxt {
+                text-align: justify;
+                text-indent: 3vw;
+            }
+            .information1 {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5vh;
+            }
+            .NPC {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .World {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Monsters {
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Weapones {
+                background-color:rgba(40, 42, 47, 0.8);
+                width: 20vw;
+                height: 100%;
+                border-radius: 6%;
+                padding: 1vw;
+                text-align: center;
+            }
+            .Contacts {
+                margin-top: 5vh;
+                background-color: rgba(40, 42, 47, 0.8);
+                width: 100%;
+                height: 100%;
+                padding: 1vw 0 1vw 0;
+                text-align: center;
+                font-size: 1vw;
             }
         </style>
     </head>
@@ -90,9 +136,75 @@
         </div>
         <div class="information">
             <div class="inf">
-                <h1>Описание и суть игры</h1>
-                <h2>Здесь будет описание игры</h2>
+                <h1>Ixoratus: Архипелаг Теней </h1>
+                <h2 class="justifytxt">
+
+                    Архипелаг Теней, окруженный бескрайним океаном, – это мир из густых джунглей,
+                    вулканических гор и смертоносных монстров. На этих островах,
+                    одновременно проклятых и благословенных, выживает народ Островитян – выносливый и смелый народ,
+                    чья жизнь неразрывно связана с охотой на чудовищ.
+                </h2>
+                <h2 class="justifytxt">
+                    Вступая в роль Ixoratus, ты становишься одним из Островитян, чья судьба – балансировать на грани жизни и смерти,
+                    добывая ресурсы и защищая поселения от вечного натиска тьмы. Питаясь мясом мирных монстров,
+                    облачаясь в чешую и шкуры, ты должен овладеть силой, заключенной в магических камнях чудовищ, чтобы выжить.
+                </h2>
+                    <h1>
+                    В Ixoratus: Архипелаг Теней: <br>
+                    </h1>
+                    <h2 class="lefttxt">
+                    •  Исследуй опасные острова Архипелага Теней, от густых джунглей до извергающихся вулканов. <br>
+                    •  Стань мастером охоты, выслеживая и уничтожая уникальных монстров. <br>
+                    •  Изучи культуру Островитян, раскрывая тайны их быта и выживания. <br>
+                    •  Собирай лут и создавай могущественное оружие и доспехи, используя силу магических камней монстров. <br>
+                    •  Защищай Островитян от надвигающейся тьмы, и стань легендой Архипелага Теней. <br>
+                    </h2>
+                    <h2>Прими свою судьбу. Стань Ixoratus. Стань легендой. </h2>
+                </h2>
             </div>
+        </div>
+        <div class="information1">
+            <div class="NPC">
+                <h1>NPC</h1>
+                <h2>
+                    Встречайте уникальных персонажей, которые помогут вам в вашем путешествии.
+                    У них вы сможете брать задания, получая за них игровую валюту, а также
+                    продавать им вещи, которые вы добыли во время своего сражения с монстрами.
+                </h2>
+            </div>
+            <div class="World">
+                <h1>Миры</h1>
+                <h2>
+                    В игре присутствует несколько миров, которые вы сможете исследовать.
+                    В каждом мире вас ждут уникальные монстры, которые будут вас
+                    преследовать, а также уникальные локации, которые вы сможете исследовать.
+                </h2>
+            </div>
+            <div class="Monsters">
+                <h1>Монстры</h1>
+                <h2>
+                    Встречайте уникальных монстров, которые будут вас преследовать.
+                    У каждого монстра есть свои уникальные способности, которые
+                    помогут ему в сражении с вами. Сражаясь с монстрами вы можете
+                    получить уникальные ресурсы, которые сможете продавать NPC.
+                </h2>
+            </div>
+            <div class="Weapones">
+                <h1>Оружие</h1>
+                <h2>
+                    С самого начала игры у вас присутствует ваш стандартный меч.
+                    Но вы сможете улучшить его, купив у NPC или создав его сами.
+                    Также вы сможете купить или создать себе доспехи, которые помогут
+                    вам в сражении с монстрами.
+                </h2>
+            </div>
+        </div>
+        <div class="Contacts">
+            <h1>Контакты</h1>
+            <h2>
+                <img src="Image/tg.png" alt="Telegram" width="50px" height="50px">
+                <img src="Image/vk.png" alt="VK" width="50px" height="50px">
+            </h2>
         </div>
     </body>
 </html>
